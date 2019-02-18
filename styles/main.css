@@ -6,3 +6,9 @@ body{
   font-size: 14px;
   color:#444;
 }
+.container_flex{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items:center;
+}

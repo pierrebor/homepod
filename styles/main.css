@@ -2,13 +2,54 @@ body{
 
   margin:0;
   padding:0;
-  font-family:"Roboto","Arial",sans6sans-serif;
+  font-family:"Roboto","Arial",sans-serif;
   font-size: 14px;
   color:#444;
+}
+header{
+    background: #373737;
+}
+nav li a{
+  padding:30px 0px;
+  margin:0px 24px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+  font-size:12px;
+  font-weight:bold;
+}
+.container{
+width: 900px;
+margin: 0 auto;
 }
 .container_flex{
   display:flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items:center;
+}
+.homePod{
+
+}
+.logo{
+
+}
+ .logo_petit{
+  width: 50px;
+  height:50px;
+}
+.homepod_petit{
+
+}
+.homePod{
+
+}
+.homePod_description{
+  width: 300px;
+  height : auto;
+  text-align: justify;
+}
+.homeVerticale>img{
+ width: 600px;
+ height: auto;
 }

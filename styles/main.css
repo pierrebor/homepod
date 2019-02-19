@@ -10,7 +10,7 @@ header{
     background: #373737;
     position: fixed;
     width: 100%;
-
+    z-index: 1
 }
 
 nav li a{
@@ -83,4 +83,48 @@ h2{
   padding-top: 50px;
   background: black;
   height: 800px;
+}
+
+
+
+
+
+
+.slider{
+  margin:20px 0px;
+  width: 45%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+ position: relative;
+}
+
+.sliderContainer{
+  position: absolute;
+  display:flex;
+  transition: ease-in 0.5s all;
+  will-change: left;
+}
+
+.sliderContainer img{
+  margin:0px 10px;
+
+}
+
+.left{
+  left: 20px;
+  top: 50%;
+  font-size: 25px;
+  color: black;
+  z-index: 10;
+}
+
+.right{
+  right: 20px;
+  top: 50%;
+  font-size: 25px;
+  color: black;
+}
+.second_section{
+  height: 1000px;
 }

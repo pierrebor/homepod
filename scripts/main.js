@@ -2,7 +2,7 @@ const leftButton = document.querySelector('.left')
 const rightButton = document.querySelector('.right')
 const slider = document.querySelector('.sliderContainer')
 const sliderImages = document.querySelectorAll('.sliderContainer img')
-const step = 960 // definit le décalage
+const step = 670 // definit le décalage
 let pos = 0 // définit la position en cours.
 let action
 
@@ -20,8 +20,6 @@ for(let i = 0; i< dots.length; i++){
     }
   )
 }
-
-
 
 playSlider()
 
@@ -45,9 +43,6 @@ function rightSlide(){
   setPosition(pos)
 }
 
-slider.addEventListener('mouseover',stopSlider)
-slider.addEventListener('mouseout',playSlider)
-
 function setPosition(pos)
 {
   document.querySelector('li.current').classList.remove('current')
@@ -65,12 +60,18 @@ function stopSlider()
 
 function playSlider()
 {
-  action = setInterval(
+  action = rightSlide(
     function()
     {
       pos = (pos+1)%sliderImages.length
       setPosition(pos)
-    },
-    1000 // toutes les 5 secondes
+    }
+  )
+  action = leftSlide(
+    function()
+    {
+      pos = (pos-1)%sliderImages.length
+      setPosition(pos)
+    }
   )
 }

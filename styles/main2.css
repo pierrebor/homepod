@@ -1,0 +1,35 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:"Helvetica Neue","Arial",sans6sans-serif;
+  font-size: 14px;
+  color:#000000;
+  background-color: #FFFFFF;
+}
+
+.navbar{
+  font-size: 15px;
+}
+
+.logoApple{
+  width: 30px;
+  height: 30px;
+}
+
+.st-navbar-desktop-logo-link{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.frontTitle{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: ;
+}
+
+.frontPod{
+ margin-left:25%;
+ margin-bottom: 30px;
+ width: 50%;
+}

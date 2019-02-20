@@ -33,3 +33,42 @@ body{
  margin-bottom: 30px;
  width: 50%;
 }
+
+.container{
+  width: 1024px;
+  height: auto;
+}
+h1{
+  text-align: center;
+  margin-top: 5%;
+}
+.container_flex{
+ display:flex;
+ justify-content: flex-start;
+}
+h3{
+  border-bottom: 1px solid black;
+  margin-top: 100px;
+  margin-left:200px;
+  font-size: 20px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin top: 500px;
+}
+ul.button li {
+  display: flex;
+  border: 2px solid black;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.container_test{
+  padding-top: 200px;
+  padding-left: 100px;
+  width: 130px;
+  height: 150px;
+}

@@ -8,7 +8,7 @@ let action
 
 
 
-let dots = document.querySelectorAll('li');
+let dots = document.querySelectorAll('li.slide-button');
 
 
 for(let i = 0; i< dots.length; i++){
@@ -70,7 +70,7 @@ function playSlider()
   action = leftSlide(
     function()
     {
-      pos = (pos-1)%sliderImages.length
+      pos = (pos+1)%sliderImages.length
       setPosition(pos)
     }
   )

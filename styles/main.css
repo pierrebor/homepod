@@ -2,7 +2,7 @@ body{
 
   margin:0;
   padding:0;
-  font-family:"Roboto","Arial",sans-serif;
+  font-family:"Helvetica",sans-serif;
   font-size: 14px;
   color:#444;
 }
@@ -50,6 +50,7 @@ margin: 0 auto;
 }
 #first_section{
   padding-top: 100px;
+  font-size: 30px
 }
  section>h1{
   text-align: center;
@@ -83,6 +84,7 @@ h2{
   padding-top: 50px;
   background: black;
   height: 800px;
+  font-size: 30px;
 }
 
 
@@ -107,8 +109,7 @@ h2{
 }
 
 .sliderContainer img{
-  margin:0px 10px;
-
+  margin:100px 10px;
 }
 
 .left{
@@ -134,9 +135,30 @@ h2{
   color: white;
 }
 button{
-  border: 2px solid black;
+border: 2px solid black;
 width: 35px;
 height: 35px;
 border-radius: 50%;
 margin: 0px 15px 0px 15px;
+}
+
+.button li{
+  border: 1px solid black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0px 15px 0px 15px;
+  z-index: 40;
+  margin-bottom: 100px;
+  list-style: none;
+}
+.button>li:hover , li.current{
+  background-color: #444;
+  opacity: 0.85;
+
+}
+.slide_flex{
+  display:flex;
+  align-items:flex-end;
+  justify-content: center;
 }

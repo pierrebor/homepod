@@ -72,3 +72,39 @@ body{
 .col-md-6{
 height: 700px;
 }
+.testSize{
+  padding-top: 70px;
+}
+.testSize2{
+  padding-top: 70px;
+}
+@media screen and ( max-width:1024px){
+
+h5{
+  margin-top:20px;
+}
+.textGuts{
+ width : 400px;
+ height: 400px;
+}
+.col-md-6{
+  height: 500px;
+}
+.col-md-6>img{
+  width: 600;
+  height: 400px;
+  margin: 0 auto;
+}
+#carouselExampleFade{
+  height: 1000px;
+}
+.carousel-fade{
+  height: 350px;
+}
+}
+@media screen and ( max-width:870px){
+  .textGuts{
+   width : 300px;
+   height: 600px;
+  }
+}

@@ -1,164 +1,74 @@
 body{
-
   margin:0;
   padding:0;
-  font-family:"Helvetica",sans-serif;
+  font-family:"Helvetica Neue","Arial",sans6sans-serif;
   font-size: 14px;
-  color:#444;
-}
-header{
-    background: #373737;
-    position: fixed;
-    width: 100%;
-    z-index: 10
+  color:#000000;
+  background-color: #FFFFFF;
 }
 
-nav li a{
-  padding:30px 0px;
-  margin:0px 24px;
-  display:inline-block;
-  color:white;
-  text-decoration:none;
-  font-size:15px;
-  font-weight:bold;
-}
-nav{
-  width: 500px;
-}
-.container{
-width: 600px;
-margin: 0 auto;
-}
-.container_flex{
-  display:flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items:center;
-}
-.menu_flex{
-  display: flex;
-  justify-content: flex-end;
-}
-.homePod{
-
+.navbar{
+  font-size: 15px;
 }
 
- .logo_petit{
+.logoApple{
   width: 30px;
-  height:auto;
-  padding-left: 500px;
+  height: 30px;
 }
-#first_section{
-  padding-top: 100px;
-  font-size: 30px
+
+.st-navbar-desktop-logo-link{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
- section>h1{
+
+.frontTitle{
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: ;
 }
-.homepod_petit{
 
+.frontPod{
+ margin-left:25%;
+ margin-bottom: 30px;
+ width: 50%;
 }
-.homePod{
 
+.carousel{
+  background-color: black;
 }
-.homePod_description{
-  width: 300px;
-  height : auto;
-  text-align: justify;
+
+.d-block{
+  padding: 30px;
+  left: 10%;
+  height: 800px auto  ;
+  width: 450px auto;
 }
-.homeVerticale>img{
-  padding-top: 50px;
- width: 600px;
- height: auto;
+.carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
 }
-.homepod4_petit{
-  width: 400px;
-  height: auto;
+
+.carousel-caption{
+  text-align: center;
+  margin-bottom: 500px;
 }
-h2{
-  width: 500px;
-  padding-left: 50px;
+.titleGuts{
   color: white;
-}
-.second_section{
-  padding-top: 50px;
-  background: black;
-  height: 800px;
-  font-size: 30px;
+  text-align: center;
+  margin-top: 15%;
 }
 
-
-
-
-
-
-.slider{
-  margin:20px 0px;
-  width: 45%;
-  height: 100%;
-  overflow: hidden;
+.textGuts{
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  width: 50%;
   margin: 0 auto;
- position: relative;
+  margin-top: 10%;
 }
 
-.sliderContainer{
-  position: absolute;
-  display:flex;
-  transition: ease-in 0.5s all;
-  will-change: left;
-}
-
-.sliderContainer img{
-  margin:100px 10px;
-}
-
-.left{
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  font-size: 25px;
-  color: black;
-}
-
-.right{
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  font-size: 25px;
-  color: black;
-}
-
-.second_section{
-  height: 1000px;
-}
-.second_section>h1{
-  color: white;
-}
-button{
-border: 2px solid black;
-width: 35px;
-height: 35px;
-border-radius: 50%;
-margin: 0px 15px 0px 15px;
-}
-
-.button li{
-  border: 1px solid black;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin: 0px 15px 0px 15px;
-  z-index: 40;
-  margin-bottom: 100px;
-  list-style: none;
-}
-.button>li:hover , li.current{
-  background-color: #444;
-  opacity: 0.85;
-
-}
-.slide_flex{
-  display:flex;
-  align-items:flex-end;
-  justify-content: center;
+.col-md-6{
+height: 700px;
 }

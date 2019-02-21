@@ -102,8 +102,17 @@ h5{
 }
 }
 
-.row-md-4>h2{
-  font-size: 70px;
+.rightSiri>h2{
+  font-size: 50px;
+  width: 700px;
+  height: 168px;
+  margin-left: 700px;
+}
+.leftSiri>h2{
+  font-size: 50px;
+  width: 700px;
+  height: 168px;
+  margin-right: 700px;
 }
 @media screen and ( max-width:870px){
   .textGuts{
@@ -174,7 +183,7 @@ h3{
   text-align: center;
 }
 .imgPod>img{
-  width: 800px;
+  width: 700px;
   height: auto;
   margin-top: -100px;
   margin-bottom: -70px;

@@ -282,3 +282,8 @@ h3{
   font-size:13px;
   margin-bottom:0;
 }
+@media screen and (max-width:1300px){
+  .rightSiri>h2{
+    margin-left:100px;
+  }
+}

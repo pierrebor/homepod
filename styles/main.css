@@ -115,13 +115,13 @@ h5{
 }
 
 .rightSiri>h2{
-  font-size: 50px;
+  font-size: 70px;
   width: 700px;
   height: 168px;
   margin-left: 700px;
 }
 .leftSiri>h2{
-  font-size: 50px;
+  font-size: 70px;
   width: 700px;
   height: 168px;
   margin-right: 700px;
@@ -299,3 +299,9 @@ h3{
     margin-left:100px;
   }
 }
+ h2{
+   font-size: 45px;
+   -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-image: -webkit-linear-gradient(right, #777dff 0px, #f154ff 200px, #f0357c 400px),-webkit-linear-gradient(left, #777dff 0px, #497ce2 200px, #37bdde 400px);
+ }

@@ -155,7 +155,7 @@ a{
 }
 .container_flex2{
   flex-direction: column;
-  height: 800px;
+  height: 600px;
   width: 400px;
   padding-right:50px;
 }
@@ -165,12 +165,14 @@ p.description_applecare{
 }
 p.continuer{
   background-color: #D1D1D1;
+  color: black;
   border-radius: 10px;
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
 }
 img{
+  padding-top: 100px;
   width: 100%;
   height:100%;
 }

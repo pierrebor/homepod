@@ -77,27 +77,27 @@ h1{
     height: 50px;
 
 }
-.font{
+.square{
   background-color: #EDEDED;
   border-radius: 10px;
   border: solid #D1D1D1;
   padding-right: 50px;
   padding-bottom: 10px;
 }
-.font2{
+.square2{
   background-color:#EDEDED;
   border-radius: 10px;
   border: solid #D1D1D1;
   padding-right: 50px;
   padding-bottom: 10px;
 }
-.blanc>p{
+.white>p{
   text-align: center;
   margin-left: 6px;
   margin-top: 10px;
   font-weight: bold;
 }
-.noir>p{
+.black>p{
   padding-left: 10px;
   margin-top: 10px;
   margin-left: 0px;
@@ -113,7 +113,7 @@ h1{
   margin-bottom: -13px;
 }
 
-.achat{
+.buy{
   width: 400px;
   height: 400px;
   display: flex;
@@ -122,7 +122,7 @@ h1{
   border-radius: 50px;
 
 }
-.achat>h1{
+.buy>h1{
   width: 70%;
   height: 30px;
   font-weight: bold;
@@ -136,7 +136,7 @@ margin: 0 auto;
 border-radius: 10px;
 margin-top: 50px;
 }
-.ajout{
+.Add_Applecare{
  font-size: 20px;
  margin-top: 20px;
  border-top: solid #D1D1D1;
@@ -190,8 +190,6 @@ img{
   padding-left: 20px;
 }
 .caracteristique{
-
-
 background: linear-gradient(180deg, #424242 30.94%, #616161 91.86%, #7A7A7A 100%);
  padding-left: 100px;
  height: 480px;
@@ -206,9 +204,7 @@ margin-top: 100px;
   padding-right: 100px;
 margin-top: 10px;
 }
-.Poids{
-  padding-left:-20px;
-}
+
 .pod3{
 width: 400px;
 height: 500px;

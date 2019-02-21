@@ -66,7 +66,7 @@ h1{
   border-bottom: 1px solid black;
 }
 
-.containe-fluid>ul li {
+.container-fluid>ul li {
   display: flex;
   border-radius: 50%;
   justify-content:space-between;

@@ -316,3 +316,8 @@ height: 500px;
   font-size:13px;
   margin-bottom:0;
 }
+@media screen and (max-width:1300px){
+  .container-fluid>.pod3{
+    display: none;
+  }
+}

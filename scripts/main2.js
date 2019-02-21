@@ -1,19 +1,19 @@
-const font = document.querySelector('.font')
-const font2 = document.querySelector('.font2')
+const square = document.querySelector('.square')
+const square2 = document.querySelector('.square2')
 const img_choice = document.querySelector('.change_images')
 
 
-font.addEventListener(
+square.addEventListener(
   'click',
-function font()
+function square()
 {
   img_choice.src="images/homepodx2.jpg"
 },
 false
 )
-font2.addEventListener(
+square2.addEventListener(
   'click',
-function font()
+function square()
 {
   img_choice.src="images/homepodx2Inverser.png"
 },

@@ -39,10 +39,10 @@ First_Sections
 }
 
 .choiceDiv{
-  width: 37.5rem !important;
+  width: 600px !important;
   height: auto;
   padding: 0;
-  padding-bottom: 9.375rem;
+  padding-bottom: 150px;
 }
 
 .choiceDiv img{
@@ -76,7 +76,7 @@ First_Sections
   background-color: #393A3B;
 }
 .frontTitle{
-  padding-top:1.5625rem;
+  padding-top:25px;
   font-weight: lighter;
   width: 75%;
   margin: 0 auto;
@@ -102,19 +102,19 @@ Caractar
 }
 
 .fonctinnality_li_6{
-  width: 10.9375rem;
-  height: 1.25rem;
+  width: 175px;
+  height: 20px;
   text-align: center;
   list-style: none;
   text-decoration: none;
   display: inline-block;
-  margin: 0.3125rem;
+  margin: 5px;
   border-right: 0.5px solid #313131;
 }
 
 .center_A{
   margin-left: 44%;
-  border-radius: 1.25rem;
+  border-radius: 1.25rem
 }
 
 /*
